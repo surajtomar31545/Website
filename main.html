@@ -1,0 +1,76 @@
+<!--This is a code written in html for making website.-->
+<!DOCTYPE html> <!--This is written for browser to understand version of html.-->
+<html lang="en"> <!--This shows language that is English.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pain.css"><!--This is link for css file-->
+    <script src="rain.js"></script><!--This is a link for javascript file-->
+    <title>Tudo Services</title><!--Title of Website-->
+</head>
+
+<body class="designbody"> <!--Class bot for designing body with css-->
+     <!--Code below design for navbar-->
+    <div class="topnav" id="topnav"> <!--Class topnav for making navigation bar and design it with css-->
+        <a class="active" href="#home">Tudo</a><!--Home option navbar-->
+        <a href="#news">News</a><!--News option on navbar-->
+        <a href="#contact">Contact</a><!--Contact option on navbar-->
+        <a href="#about">About</a><!--About option on navbar-->
+    </div>
+   <!--Code below design for footer-->
+   <img src="https://images.pexels.com/photos/1076885/pexels-photo-1076885.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="1600" height="300">
+    <footer>
+        <div class="footer"><!--Create footer class for design it-->
+            <a class="active" href="#Contactus">Contact us</a><!--Contact us option on footer bar-->
+            <a href="#joinus">Join us</a><!--Join us option on footer bar-->
+        </div>
+      </footer>
+      <!--Division making for layout on webpage-->
+      <div class="container"><!--Create a container class for design or create a upper part of layout-->
+          <h1 class="logo">Tudo- Your Loving Shop</h1><!--logo class for design main heading in css-->
+          <p class="tagline">Now every product deliver at your home.</p> <!--Again uses logo class for design tagline-->
+        </div>
+        <!--Making Main division for creating columns-->
+        <div class="row"><!--Create a row class for design Columns-->
+          <!--Column first-->
+          <div class="column" style="background-color:#9400D3;">
+            <h3 class="heading">Fast Delivery</h3>
+            <p class="para"><b>Tudo provides you a very fast delivery ever done.<br>
+                 Our Team gives you the best experiences to enhance your life and save Time.</p>   
+          </div>
+            <!--Column Second-->
+          <div class="column" style="background-color:#9932CC;">
+            <h3 class="heading">Thousands of Products</h3>
+            <p class="para">Tudo have thousands of products to delivered at your Home.<br> 
+                And it provides you in best price and free delivery.</p>
+          </div>
+          <!--Column Third-->
+          <div class="column" style="background-color:#BA55D3;">
+            <h3 class="heading">Featured Services</h3>        
+            <p class="para">It gives you advanced features that gives you best services.<br> This can make your
+                life easy and happy.
+            </p>
+          </div>
+
+        </div><!--Main division off-->
+      <!--Creating another division for submittin visitors details and information-->
+      <div id="text" class="next">
+        <div id="menu" class="menu">Join Us &nbsp;|&nbsp; Contact us</div>
+        <!--Using form tag for creating sumbit form-->
+        <form>
+          <label for="fname" id="fstnme" class="fstnme">First name:</label><br>
+          <input type="text" id="fname" name="fname" size="50"><br>
+          <label for="lname" id="lstnme" class="lstnme">Last name:</label><br>
+          <input type="text" id="lname" name="lname" size="50" ><br>
+          <label for="gmail" id="gmal" class="gmal">Gmail:</label><br>
+          <input type="text" id="gmail" name="gmail" size="50"><br><br>
+          <input type="submit" value="Submit" id="submit" class="submit">
+        </form>
+      </div>
+      
+      <div class="parallax"></div><!--This division creating for making scrolling effect in website-->
+        
+</body>
+</html>
